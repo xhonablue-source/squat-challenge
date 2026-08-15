@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # --- Page Setup ---
-st.set_page_config(page_title="Full Squat Challenge: Chandler Park Academy", page_icon="🏋️")
+st.set_page_config(page_title="Full Squat Challenge: Chandler Park Academy", page_icon="🏋🏿")
 
 # --- Developer / School Credit Header ---
 st.markdown("""
@@ -11,7 +11,7 @@ st.markdown("""
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
     <div style='color: white;'>
         <h2 style='margin: 0; color: #FFC72C; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);'>
-            🏋️ Full Squat Challenge: What's the Observers' Consensus?
+            🏋🏿 Full Squat Challenge: What's the Observers' Consensus?
         </h2>
         <p style='margin: 5px 0; font-size: 1.1em; font-weight: 500;'>
             Chandler Park Academy | Detroit, Michigan | Home of the Eagles 🦅
@@ -38,7 +38,7 @@ data distributions — real tools statisticians use whenever multiple observers 
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.info("🏋️ **Squats performed**\n\n20")
+    st.info("🏋🏿 **Squats performed**\n\n20")
 with col2:
     st.info("👀 **Judges watching**\n\n3")
 with col3:
