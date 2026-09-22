@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # --- Page Setup ---
-st.set_page_config(page_title="Full Squat Challenge: Chandler Park Academy", page_icon="🏋🏿")
+st.set_page_config(page_title="Full Squat Challenge", page_icon="🏋🏿")
 
 # --- Developer / School Credit Header ---
 st.markdown("""
@@ -14,7 +14,7 @@ st.markdown("""
             🏋🏿 Full Squat Challenge: What's the Observers' Consensus?
         </h2>
         <p style='margin: 5px 0; font-size: 1.1em; font-weight: 500;'>
-            Chandler Park Academy | Detroit, Michigan | Home of the Eagles 🦅
+            Mr. H Math ⭐
         </p>
         <p style='margin: 5px 0; opacity: 0.95;'>8th Grade Mathematics | Developed by Mr. H</p>
         <hr style='border: 1px solid rgba(255,255,255,0.3); margin: 10px 0;'>
@@ -26,9 +26,9 @@ st.markdown("""
 st.markdown("---")
 
 # --- Title / Intro ---
-st.title("🦅 Eagle Analysts: The Full Squat Challenge")
+st.title("⭐ Data Analysts: The Full Squat Challenge")
 st.markdown("""
-Welcome, **Chandler Park Eagles**! Today's data comes from a real physical challenge: one student does **20 bodyweight squats**, 
+Welcome, **mathematicians**! Today's data comes from a real physical challenge: one student does **20 bodyweight squats**, 
 and **3 judges** each independently call every rep either **Full (F)** — all the way down, all the way up, no pausing — 
 or **Not Full / X** — if it was too shallow, too fast, or paused mid-rep.
 
@@ -389,11 +389,11 @@ with res_col2:
     """, unsafe_allow_html=True)
 
 st.markdown("---")
-st.header("🦅 What You've Learned Today")
+st.header("⭐ What You've Learned Today")
 st.markdown("""
-**Congratulations, Eagle Analysts!** Today you built a two-way table, summarized a data distribution, and thought 
+**Congratulations, Data Analysts!** Today you built a two-way table, summarized a data distribution, and thought 
 critically about why even careful, well-trained observers disagree — the same real-world skill behind the squatting 
 and longevity research you read about at the start.
 
-Keep organizing the data, Chandler Park Eagles! 🦅📊
+Keep organizing the data, mathematicians! ⭐📊
 """)
